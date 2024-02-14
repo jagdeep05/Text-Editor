@@ -58,8 +58,8 @@ return (
         <Route exact path="/Text-Editor" element={<Textform heading="Enter your text" mode={mode} showAlert={showAlert} /> }>
           
           </Route>
-          
-          <Route exact path="/about" element={<Info  mode={mode}  />}>
+
+          <Route  path="/about" element={<Info  mode={mode}  />}>
             
           </Route>
 
