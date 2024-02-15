@@ -44,7 +44,7 @@ if (mode==='light') {
 
 return (
 <>
-<Router >
+<Router basename='/Text-Editor' >
 
   < Navbar Textutils="Text-Editor" mode={mode} toggleMode={toggleMode} />
    
