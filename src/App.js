@@ -44,7 +44,7 @@ if (mode==='light') {
 
 return (
 <>
-<Router basename="/Text-Editor">
+<Router basename="/">
 
   < Navbar Textutils="Text-Editor" mode={mode} toggleMode={toggleMode} />
    
@@ -55,7 +55,7 @@ return (
     <div className="container my-3">
     <Routes>
         
-        <Route exact path="/Text-Editor" element={<Textform heading="Enter your text" mode={mode} showAlert={showAlert} /> }>
+        <Route exact path="/" element={<Textform heading="Enter your text" mode={mode} showAlert={showAlert} /> }>
           
           </Route>
 
