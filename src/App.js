@@ -5,7 +5,7 @@ import Textform from './components/Textform';
 import Alert from './components/Alert';
 import Info from './components/Info';
 import {
-  BrowserRouter as Router,
+  BrowserRouter ,
   Routes,
   Route,
 } from "react-router-dom";
@@ -44,7 +44,7 @@ if (mode==='light') {
 
 return (
 <>
-<Router>
+< BrowserRouter basename="/Text-Editor" >
 
   < Navbar Textutils="Text-Editor" mode={mode} toggleMode={toggleMode} />
    
@@ -63,7 +63,7 @@ return (
             
           </Route>
 
-        
+        run 
     </Routes>
    
     
@@ -75,7 +75,7 @@ return (
    </div>
  
 
-</Router>
+</BrowserRouter>
 </>
 
   );
