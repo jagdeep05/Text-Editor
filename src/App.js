@@ -55,11 +55,11 @@ return (
     <div className="container my-3">
     <Routes>
         
-        <Route exact path="/Text-Editor" element={<Textform heading="Enter your text" mode={mode} showAlert={showAlert} /> }>
+        <Route exact path="/" element={<Textform heading="Enter your text" mode={mode} showAlert={showAlert} /> }>
           
           </Route>
 
-          <Route  path="/about" element={<Info  mode={mode}  />}>
+          <Route exact path="/about" element={<Info  mode={mode}  />}>
             
           </Route>
 
