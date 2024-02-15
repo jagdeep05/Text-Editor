@@ -1,6 +1,6 @@
 {
-  "homepage": "https://jagdeep05.git.io/Text-Editor",
   "name": "textutils",
+  "homepage": "https://jagdeep05.git.io/Text-Editor",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
